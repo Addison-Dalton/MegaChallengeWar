@@ -22,6 +22,12 @@ namespace MegaChallengeWar
             this.hand.AddRange(newCards);
         }
 
+        //similar to above method, but only adds a single card
+        public void AddCardToHand(Card newCard)
+        {
+            this.hand.Add(newCard);
+        }
+
         //returns the card on top of the players hand/deck (first item in list) and removes it from hand.
         public Card PlayCard()
         {

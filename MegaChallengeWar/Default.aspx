@@ -13,7 +13,11 @@
                 <h3>Play War!</h3>
             </div>
             <div>
-                <asp:Button ID="playButton" Text="Play" runat="server" />
+                <asp:Button ID="playButton" Text="Play" OnClick="PlayButtonClick" runat="server" />
+            </div>
+            <br />
+            <div>
+                <asp:Label ID="battleSummaryLabel" Text="" runat="server"></asp:Label>
             </div>
         </div>
     </form>

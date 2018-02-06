@@ -13,5 +13,17 @@ namespace MegaChallengeWar
         {
 
         }
+
+        protected void PlayButtonClick(object sender, EventArgs e)
+        {
+            Game game = new Game();
+            game.InitializeGame();
+            DisplayGameSummary(game);
+        }
+
+        private void DisplayGameSummary(Game game)
+        {
+            battleSummaryLabel.Text = game.GetGameSummary();
+        }
     }
 }
