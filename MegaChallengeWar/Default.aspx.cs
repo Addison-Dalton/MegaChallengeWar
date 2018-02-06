@@ -18,6 +18,7 @@ namespace MegaChallengeWar
         {
             Game game = new Game();
             game.InitializeGame();
+            game.Play();
             DisplayGameSummary(game);
         }
 

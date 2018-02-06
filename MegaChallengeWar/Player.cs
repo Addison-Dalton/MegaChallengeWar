@@ -37,7 +37,7 @@ namespace MegaChallengeWar
         }
 
         //returns number of cards in players hand.
-        public int GetScore()
+        public int GetHandCount()
         {
             return this.hand.Count;
         }
